@@ -8,8 +8,16 @@
   - venv_img_comparison\Scripts\activate
 * Install the dependency
   - pip install -r requirements.txt
-* Start the Service using flask
+* Start the Service using flask - Local/Development
   - copy .env.dev .env
+  - set FLASK_APP=app.py
+  - flask run
+* Start the Service using flask - QA
+  - copy .env.test .env
+  - set FLASK_APP=app.py
+  - flask run
+* Start the Service using flask - PROD
+  - copy .env.prod .env
   - set FLASK_APP=app.py
   - flask run
  

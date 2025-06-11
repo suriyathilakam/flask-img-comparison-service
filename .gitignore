@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.local
+.env.production
+*.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs
+*.idea
+*.iml
+

@@ -1,0 +1,9 @@
+Flask
+Flask-RESTful
+Flask-CORS
+python-dotenv
+requests
+mysql-connector-python
+Pillow
+numpy
+Werkzeug
